@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header__logo {
+        width: 250px;
+        img {
+            width: 100%;
+        }
+    }
+    .header__official {
+        color: #FFF;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        span {
+            margin-top: 12px;
+            display: block;
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 18px;
+        }
+    }
+    .header__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        .header__tel {
+            display: block;
+            color: #FFF;
+            text-align: right;
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        button {
+            margin-top: 4px;
+        }
+    }
+}

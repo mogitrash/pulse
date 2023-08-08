@@ -1,0 +1,15 @@
+@import 'base/variables.scss';
+* {
+    box-sizing: border-box;
+    font-family: 'Museo Sans', sans-serif;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import 'blocks/promo.scss';
+@import 'blocks/header.scss';
+@import 'blocks/button.scss';
+@import 'blocks/advantages.scss';
+
