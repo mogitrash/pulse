@@ -1,0 +1,78 @@
+@media (max-width:992px) {
+    .carousel {
+        display: none;
+    }
+    .catalog {
+        margin-top: 20px;
+    }
+    .promo {
+        .promo__wrapper {
+            align-items: center;
+            text-align: center;
+            .promo__icons {
+                margin-right: 0;
+            }
+        }
+    }
+    .header {
+        justify-content: space-around;
+        .header__official {
+            display: none;
+        }
+    }
+    .consultation {
+        text-align: center;
+        height: 600px;
+        .title {
+            text-align: center;
+            font-size: 30px;
+            line-height: normal;
+        }
+        .consultation__subheader {
+            text-align: center;
+        }
+        form {
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+}
+@media (max-width:768px) {
+    .catalog {
+        .catalog__tabs {
+            margin-top: 5px;
+            .catalog__tab {
+                width: 110px;
+                font-size: 12px;
+            }
+        }
+        .catalog__content {
+            justify-content: center;
+        }
+        .title {
+            font-size: 25px;
+        }
+    }
+    .advantages {
+        padding: 35px 0 40px 0;
+        .advantages__wrapper {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+    .feedback {
+        .feedback__item {
+            .feedback__img {
+                margin-right: 10px;
+                img {
+                    width: 50px;
+                }
+            }
+        }
+    }
+    .footer {
+        .footer__info {
+            width: 100%;
+        }
+    }
+}

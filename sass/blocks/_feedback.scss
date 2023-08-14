@@ -1,0 +1,32 @@
+.feedback {
+    min-height: 920px;
+    .feedback__item {
+        display: flex;
+        min-height: 213px;
+        margin-top: 60px;
+        .feedback__img {
+            margin-right: 60px;
+        }
+        .feedback__text {
+            .feedback__name {
+                color: #0D0D0D;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+            }
+            .feedback__marathon {
+                color: #646464;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 22px;
+            }
+            .feedback__desc {
+                margin-top: 10px;
+                color: #0D0D0D;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 20px;
+            }
+        }
+    }
+}
