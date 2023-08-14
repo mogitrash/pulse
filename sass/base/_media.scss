@@ -38,6 +38,13 @@
     }
 }
 @media (max-width:768px) {
+    .promo {
+        .promo__wrapper {
+            .promo__icons {
+                width: 100%;
+            }
+        }
+    }
     .catalog {
         .catalog__tabs {
             margin-top: 5px;
