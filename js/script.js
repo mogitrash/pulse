@@ -54,5 +54,31 @@ $(document).ready(function(){
         });
     }); 
 
-  });
+    $('form').submit(function(e){
+        e.preventDefault();
+        $.ajax({
+            type: "POST",
+            url: "mailer/smart.php",
+            data: $(this).serialize()
+        }).done(function(){
+            $(this).find("input").val("");
+
+
+
+            $('form').trigger('reset');
+        });
+        return false;
+    });
+
+
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 1600) {
+            $('.pageup').fadeIn();
+        } else {
+            $('.pageup').fadeOut();
+        }
+    });
+    
+    new WOW().init();
+});
   

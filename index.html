@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Pulse</title>
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo"><img src="icons/man.png" alt="logo"></a>
@@ -57,7 +58,7 @@
                     <div class="advantages__descr">Наши сотрудники всегда готовы <br> поделиться своим опытом,<br> так как сами бегают полумарафоны, <br>переплыли Босфор, готовятся к <br>соревнованиям по триатлону!</div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/heart.png" alt="">
+                    <img src="icons/heart.png" alt="" class="advantages__icon_animated">
                     <h2>Заботимся о здоровье</h2>
                     <div class="advantages__descr">Мы работаем для того,<br> чтобы Ваши занятия спортом шли на <br>пользу Вашему здоровью и были в<br> радость Вам и Вашим близким!</div>
                 </div>
@@ -395,7 +396,7 @@
     <section class="feedback">
         <div class="container">
             <h2 class="title title_black">отзывы клиентов</h2>
-            <div class="feedback__item">
+            <div class="feedback__item animate__animated animate__fadeInUp wow" data-wow-delay="0.2s">
                 <div class="feedback__img"><img src="img/photos/photo_1.png" alt=""></div>
                 <div class="feedback__text">
                     <div class="feedback__name">Ирина Иванченко </div>
@@ -404,7 +405,7 @@
                     <br><br>Спасибо, RunSmart! </div>
                 </div>
             </div>
-            <div class="feedback__item">
+            <div class="feedback__item animate__animated animate__fadeInUp wow" data-wow-delay="0.2s">
                 <div class="feedback__img"><img src="img/photos/photo_2.png" alt=""></div>
                 <div class="feedback__text">
                     <div class="feedback__name">Иван Сёмочкин</div>
@@ -412,7 +413,7 @@
                     <div class="feedback__desc">Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал. <br>Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку, научили пользоваться новым гаджетом. Также объяснили основы анатомии, составили план тренировок на месяц вперёд.<br><br>С ними подготовился к своему первому полумарафону! Спасибо!!!</div>
                 </div>
             </div>
-            <div class="feedback__item">
+            <div class="feedback__item animate__animated animate__fadeInUp wow" data-wow-delay="0.2s">
                 <div class="feedback__img"><img src="img/photos/photo_3.png" alt=""></div>
                 <div class="feedback__text">
                     <div class="feedback__name">Юлия Дашкина</div>
@@ -483,9 +484,14 @@
         </div>
     </div>
 
+    <a href="#up" class="pageup">    
+        <img src="icons/circle-up-solid.svg" alt="up">
+    </a>
+
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
