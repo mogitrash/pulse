@@ -1,3 +1,8 @@
+@import 'libs/reset.scss';
+@import 'libs/fonts.scss';
+@import 'libs/slick.scss';
+@import 'libs/animate.scss';
+
 @import 'base/variables.scss';
 @import "base/animations.scss";
 * {
@@ -10,6 +15,7 @@
     max-width: 950px;
     margin: 0 auto;
 }
+
 @import 'blocks/promo.scss';
 @import 'blocks/header.scss';
 @import 'blocks/button.scss';
